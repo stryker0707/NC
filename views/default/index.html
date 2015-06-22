@@ -1,0 +1,14 @@
+{{extend 'layout.html'}}
+{{=form}}
+<h3>
+Noun Compounds are:    
+</h3>
+{{for re in res:}}
+{{=re}}
+{{pass}}
+<h3>
+Papraphrases are:
+</h3>
+{{for va in val:}}
+{{=va}}
+{{pass}}
